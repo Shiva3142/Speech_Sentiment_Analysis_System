@@ -1,0 +1,117 @@
+header{
+    background-color: #02440b;
+    padding: 10px;
+}
+
+
+.HomeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.HomeContainer button{
+    background-color: #130f40;
+    width: 400px;
+height: 200px;
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.HomeContainer button:hover{
+    background-color: coral;
+}
+
+
+
+.PredictionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#InputContainer{
+    min-width: 600px;
+    height: 500px;
+    background-color: rgb(34, 0, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+
+
+#InputContainer h1{
+    margin: 30px;
+
+}
+#InputContainer button{
+padding: 10px 30px;
+border-radius: 5px;
+background-color: coral;
+font-size: 30px;
+margin: 20px;
+}
+#InputContainer label{
+    font-size: 30px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    background-color: #006391;
+    color: white;
+    border-radius: 10px;
+    min-width: 300px;
+    text-align: center;
+}
+
+
+
+#OutputContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    min-width: 1000px;
+    min-height: 500px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: none;
+}
+
+#OutputContainer >img{
+    max-width: 500px;
+    max-height: 400px;
+    margin: auto;
+}
+
+
+.Emotions_output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.Emotions_output h2{
+    margin: 20px;
+}
+
+
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+#output img{
+    max-width: 200px;
+}

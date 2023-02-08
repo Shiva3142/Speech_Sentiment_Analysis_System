@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: inherit;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    transition: all 0.2s;
+    word-wrap: break-word;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: url("https://images.unsplash.com/photo-1605731414532-6b26976cc153?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+main{
+    min-height: 80vh;
+}
+
+a,button,span,li,i,label{
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+
+#loader{
+    height: 80px;
+    width: 80px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
